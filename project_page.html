@@ -1,0 +1,232 @@
+<html lang="en">
+<head>
+<title>Daniel Scott Clark - UX Designer</title>
+<meta name="author" content="Daniel Scott Clark">
+<meta name="description" content="UX Design Portfolio">
+
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<style>
+	h2 {
+		font-family: Lato;
+		font-weight: 400;
+		font-size: 26px;
+		line-height: 36px;
+		color: #333;
+	}
+	p, h3 {
+		font-family: Lato;
+		font-weight: 300;
+		font-size: 18px;
+		line-height: 27px;
+		color: #333;
+	}
+	h4 {
+		font-family: Lato;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 18px;
+		color: #1c1c1c;
+	}
+	h5 {
+		font-family: Lato;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;
+		color: #1c1c1c;
+	}
+
+	.project-picture {
+		/*border:1px solid red;*/
+		cursor:pointer;
+		padding:8px;
+		text-align:center;
+	}
+	.project-picture img {
+		width:100%;
+		max-width:350px;
+		transition: max-width 300ms;
+	}
+	.project-picture.expanded img {
+	    max-width: 100%;
+	}
+	@media screen and (min-width: 576px) {
+		    #global-nav {
+		    	margin: 0 0 0 75px;
+			}
+	}
+	.navbar {
+		background: white;
+	}
+
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.project-picture').on('click', function(){
+		$(this).toggleClass('expanded');
+	});
+});
+</script>
+</head>
+
+<body>
+<!-- Start of navbar -->
+<nav id="global-nav" class="navbar navbar-expand-lg navbar-light sticky-top">
+	<a href="/index.html">
+		<img src="https://static1.squarespace.com/static/58c99287c534a5446c08b24a/t/59c2f5f8cf81e0824c1a2835/1552507128348/" height="75px" alt="Daniel Scott Clark - UX Designer">
+	</a>
+
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  	</button>
+
+	<div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+		<ul class="navbar-nav">
+	    	<li class="nav-item active">
+	      		<a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a>
+	    	</li>
+	    	<li class="nav-item">
+	        	<a class="nav-link" href="#">About</a>
+	    	</li>
+	    </ul>
+	</div>
+</nav>
+
+<div class="container">
+	<div class="row">
+		<div class="col-12 col-sm-4">
+		<!-- summary sidebar -->
+			<h2>Autel Robotics</h2>
+			 <!-- needs to be finished -->
+			<p>Client:</p>
+			<h4>Autel Robotics</h4>
+
+			<p>Timeline:</p>
+			<h4>3 weeks</h4>
+
+			<p>Research Methods:</p>
+			<h4>Stakeholder Interviews, User Research, User Testing</h4>
+
+			<p>Tools</p>
+			<h4>Axure, Photoshop</h4>
+		</div>
+
+		<div class="col-12 col-sm-8">
+			<!-- project content -->
+			<section>
+				<h2>Research</h2>
+
+				<figure class="project-picture float-lg-right ml-lg-3">
+					<picture>
+						<!-- LARGER IMAGE FILE SIZE <source media="(min-width: 650px)" srcset="img_pink_flowers.jpg"> -->
+						<img src="https://static1.squarespace.com/static/58c99287c534a5446c08b24a/t/5c81e1fc71c10b854df37a9b/1507870575897/20160510_Daniel_flying_drone.jpg" class="img-fluid" />
+					</picture>
+					<figcaption>Here I flew the drone. Clearly I am a natural!</figcaption>
+				</figure>
+
+				<p>In this project I designed a Minimum Viable Product (MVP) for the Support section of a mobile drone flying application within a team.</p>
+				<p>I interviewed stakeholders, did user interviews and research, analyzed the data, built a prototype, did usability testing, and iterated on the design with team members.</p>
+				<p>The product is impressive and the setup can be very technical with a need for support in the field.</p>
+				<p>The business owners and support technicians said they main desire was to reduce call volume as they anticipated an increase with the new product launch.</p>
+
+				<h5>Card sort results</h5>
+
+				<figure class="project-picture float-lg-right ml-lg-3">
+					<picture>
+						<!-- LARGER IMAGE FILE SIZE <source media="(min-width: 650px)" srcset="img_pink_flowers.jpg"> -->
+						<img src="https://static1.squarespace.com/static/58c99287c534a5446c08b24a/t/5c88cf12f4e1fcb114e5edbb/1552470364814/20160517_Card_sorting_results_image_1.jpg"/>
+					</picture>
+					<figcaption><!-- OPTIONAL CAPTION --></figcaption>
+				</figure>
+
+				<p>In this analysis of the card sort we discovered what the user's mental or the support section was and determined the scope of our section of the application.</p>
+				<p>I helped create content, recruited participants to take the test, and analyzed the card sort as part of a team.</p>
+				<p>The bottom half is what we used as our scope for the project.</p>
+
+				<h5>Affinity diagram</h5>
+
+				<figure class="project-picture float-lg-right ml-lg-3">
+					<picture>
+						<!-- LARGER IMAGE FILE SIZE <source media="(min-width: 650px)" srcset="img_pink_flowers.jpg"> -->
+						<img src="https://static1.squarespace.com/static/58c99287c534a5446c08b24a/t/5c895472ee6eb04b87f6201f/1552503928951/edited.jpg"/>
+					</picture>
+					<figcaption><!-- OPTIONAL CAPTION --></figcaption>
+				</figure>
+
+				<p>Here we have created an affinity diagram of the quotes and themes from our five user interviews to inform our persona.</p>
+				<p>I helped by interviewing users, analyzing responses, and recruiting.</p>
+
+				<button type="button" class="btn btn-light">Interview script</button>
+
+				<h5>Primary persona</h5>
+
+				<img src="https://static1.squarespace.com/static/58c99287c534a5446c08b24a/t/5c81e1fc71c10b854df37aa1/1507917966379/20160509_Persona_V10.png"/>
+
+				<p>This is the primary persona. All these figures and scales are backed up by our data.</p>
+			</section>
+
+			<section>
+				<h2>Plan</h2>
+
+				<figure class="project-picture float-lg-right ml-lg-3">
+					<picture>
+						<!-- LARGER IMAGE FILE SIZE <source media="(min-width: 650px)" srcset="img_pink_flowers.jpg"> -->
+						<img src="https://static1.squarespace.com/static/58c99287c534a5446c08b24a/t/5c89542f08522927ea818fcf/1552503862472/20160514_P5_Use_Case_Screens.jpg"/>
+					</picture>
+					<figcaption><!-- OPTIONAL CAPTION --></figcaption>
+				</figure>
+
+				<p>These are the key screens we began to design for after our design studio.</p>
+				<p>I participated in team design studios and we began building the prototype in Photoshop.</p>
+			</section>
+
+			<section>
+				<h2>Design</h2>
+
+				<iframe src=&quot;//gifs.com/embed/E89jYl&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; width=&quot;466px&quot; height=&quot;360px&quot; style=&quot;-webkit-backface-visibility: hidden;-webkit-transform: scale(1);&quot; ></iframe>
+
+				<p>This is animation of the user flows.</p>
+				<p>The prototype walks the user through a troubleshooting scenario in the field when they are flying their drone.</p>
+
+				<iframe src=&quot;//gifs.com/embed/E89jYl&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; width=&quot;466px&quot; height=&quot;360px&quot; style=&quot;-webkit-backface-visibility: hidden;-webkit-transform: scale(1);&quot; ></iframe>
+
+				<iframe src=&quot;//gifs.com/embed/E89jYl&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; width=&quot;466px&quot; height=&quot;360px&quot; style=&quot;-webkit-backface-visibility: hidden;-webkit-transform: scale(1);&quot; ></iframe>
+
+				<button type="button" class="btn btn-light">Full video</button>
+			</section>
+
+			<section>
+				<h2>Test</h2>
+
+				<img src="https://static1.squarespace.com/static/58c99287c534a5446c08b24a/t/5c8953aaf4e1fcf99b2915e4/1552503728971/edited.jpg"/>
+
+				<p>The app and prototype are design to be used with the drone controller. This is me testing one user. </p>
+			</section>
+
+			<section>
+				<h2>Final Findings</h2>
+
+				<p>After usability testing, it was revealed that the pop up alert were less visible then first thought.</p>
+				<p>That the menu bar on top was impractical and was better positioned at the bottom of the screen because of how the user interacted with the application when it was docked in the controller.</p>
+				<p>The screen above is a final redesign of the first prototype tested.</p>
+
+				<button type="button" class="btn btn-light">Presentation</button>
+
+				<h5>Team dronie</h5>
+
+				<iframe width="" height="" src="https://www.youtube.com/embed/rdOgQbGYxzc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+				<p>You've heard of selfies... well here is a dronie!</p>
+			</section>
+
+		</div> <!-- end right column -->
+	</div> <!-- end container row -->
+</div> <!-- end container -->
+
+</body>
+</html>
